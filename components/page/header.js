@@ -28,11 +28,9 @@ const Header = props => (
                         <i className={'fe ' + props.icon}></i>
                     </div>
 
-
                     <h1 className="display-2 text-white mt-3">
                         {props.title}
                     </h1>
-
 
                     <p className="lead text-white-80 mb-6 mb-md-8">
                         {props.subtitle}
