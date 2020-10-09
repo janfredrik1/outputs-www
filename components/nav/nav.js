@@ -20,7 +20,7 @@ export default class Nav extends React.Component {
                         </button>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item ">
-                                <Link href="/tjenester">
+                                <Link href="/whats-new">
                                     <a className="nav-link" id="navbarPages"
                                        aria-haspopup="true" aria-expanded="false">
                                         What’s New
@@ -28,7 +28,7 @@ export default class Nav extends React.Component {
                                 </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link href="/tjenester">
+                                <Link href="/support">
                                     <a className="nav-link" id="navbarPages"
                                        aria-haspopup="true" aria-expanded="false">
                                         Support
@@ -36,7 +36,7 @@ export default class Nav extends React.Component {
                                 </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link href="/tjenester">
+                                <Link href="/blog">
                                     <a className="nav-link" id="navbarPages"
                                        aria-haspopup="true" aria-expanded="false">
                                         Blog
@@ -44,7 +44,7 @@ export default class Nav extends React.Component {
                                 </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link href="/tjenester">
+                                <Link href="https://outputs-app.com">
                                     <a className="nav-link" id="navbarPages"
                                        aria-haspopup="true" aria-expanded="false">
                                         Create Account
@@ -52,7 +52,7 @@ export default class Nav extends React.Component {
                                 </Link>
                             </li>
                             <li className="nav-item ">
-                                <Link href='/join'>
+                                <Link href='/https://outputs-app.com'>
                                     <a className="navbar-btn btn btn-sm btn-primary lift ml-auto">
                                         Login
                                     </a>
