@@ -1,0 +1,39 @@
+class Fonts extends React.Component {
+    render() {
+        return (
+
+            <style jsx="true">{
+                `
+    @font-face {
+    font-family: HKGroteskPro;
+    src: url(/fonts/HKGroteskPro-Bold.woff);
+    src: url(/fonts/HKGroteskPro-BoldItalic.woff);
+    src: url(/fonts/HKGroteskPro-Book.woff);
+    src: url(/fonts/HKGroteskPro-BookItalic.woff);
+    src: url(/fonts/HKGroteskPro-ExtraLight.woff);
+    src: url(/fonts/HKGroteskPro-ExtraLightItalic.woff);
+    src: url(/fonts/HKGroteskPro-Hairline.woff);
+    src: url(/fonts/HKGroteskPro-HairlineItalic.woff);
+    src: url(/fonts/HKGroteskPro-Italic.woff);
+    src: url(/fonts/HKGroteskPro-Light.woff);
+    src: url(/fonts/HKGroteskPro-LightItalic.woff);
+    src: url(/fonts/HKGroteskPro-Medium.woff);
+    src: url(/fonts/HKGroteskPro-MediumItalic.woff);
+    src: url(/fonts/HKGroteskPro-Regular.woff);
+    src: url(/fonts/HKGroteskPro-SemiBold.woff);
+    src: url(/fonts/HKGroteskPro-SemiBoldItalic.woff);
+    src: url(/fonts/HKGroteskPro-Thin.woff);
+    src: url(/fonts/HKGroteskPro-ThinItalic.woff);
+    }
+    body {
+    font-family: HKGroteskPro;}
+    `
+            }</style>
+
+
+        )
+
+    }
+}
+
+export default Fonts;
