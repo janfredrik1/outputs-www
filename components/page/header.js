@@ -13,8 +13,8 @@ const Header = props => (
                 <defs>
                     <linearGradient id="paint0_linear" x1="0" y1="0" x2="1049.98" y2="912.68"
                                     gradientUnits="userSpaceOnUse">
-                        <stop stop-color="currentColor" stop-opacity="0.075"></stop>
-                        <stop offset="1" stop-color="currentColor" stop-opacity="0"></stop>
+                        <stop stopColor="currentColor" stopOpacity="0.075"></stop>
+                        <stop offset="1" stopColor="currentColor" stopOpacity="0"></stop>
                     </linearGradient>
                 </defs>
             </svg>
