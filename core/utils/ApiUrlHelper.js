@@ -2,9 +2,8 @@ import absoluteUrl from 'next-absolute-url'
 
 export default (path, req) => {
 
-    const {origin} = absoluteUrl(req);
+    //https://getoutputs.com
+    const {origin} = absoluteUrl(req, 'getoutputs.com');
     const apiURL = `${origin}${path}`;
-    console.log('apiUrl:');
-    console.log(apiURL);
     return apiURL;
 };
