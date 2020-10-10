@@ -35,7 +35,7 @@ export default class PageHome extends React.Component {
                             <h2>
                                 <span class="font-weight-bold">Outputs&trade;</span> is a tiny and efficient online strategy
                                 tool<br/>
-                                <span className="text-primary">that helps your organization realise its ambitions</span>.
+                                <span className="text-primary">that helps your organization collaborate and realize its ambitions</span>.
                             </h2>
 
 
