@@ -20,41 +20,17 @@ export default class Nav extends React.Component {
                         </button>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item ">
-                                <Link href="/whats-new">
+                                <Link href="/whats-this">
                                     <a className="nav-link" id="navbarPages"
                                        aria-haspopup="true" aria-expanded="false">
-                                        What’s New
-                                    </a>
-                                </Link>
-                            </li>
-                            <li className="nav-item ">
-                                <Link href="/support">
-                                    <a className="nav-link" id="navbarPages"
-                                       aria-haspopup="true" aria-expanded="false">
-                                        Support
-                                    </a>
-                                </Link>
-                            </li>
-                            <li className="nav-item ">
-                                <Link href="/blog">
-                                    <a className="nav-link" id="navbarPages"
-                                       aria-haspopup="true" aria-expanded="false">
-                                        Blog
-                                    </a>
-                                </Link>
-                            </li>
-                            <li className="nav-item ">
-                                <Link href="https://outputs-app.com">
-                                    <a className="nav-link" id="navbarPages"
-                                       aria-haspopup="true" aria-expanded="false">
-                                        Create Account
+                                        What’s This?
                                     </a>
                                 </Link>
                             </li>
                             <li className="nav-item ">
                                 <Link href='/https://outputs-app.com'>
                                     <a className="navbar-btn btn btn-sm btn-primary lift ml-auto">
-                                        Login
+                                        Coming Soon!
                                     </a>
                                 </Link>
                             </li>

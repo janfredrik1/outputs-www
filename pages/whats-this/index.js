@@ -9,7 +9,7 @@ export default class PageHome extends React.Component {
 
     static async getInitialProps({req}) {
         const json = await ApiFetchService.getInstance()
-            .fetch(`/api/pages?page=${ConstantsPageKeys.PAGE_HOME}`, req);
+            .fetch(`/api/pages?page=${ConstantsPageKeys.PAGE_WHATS_THIS}`, req);
         return {page: json}
     }
 
